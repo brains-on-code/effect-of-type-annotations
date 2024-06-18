@@ -1,0 +1,30 @@
+{
+    "font-normal": "JetBrainsMonoNL-Regular.ttf",
+    "font-bold": "JetBrainsMonoNL-Bold.ttf",
+    "font-italic": "JetBrainsMonoNL-Italic.ttf",
+    "font-bold-italic": "JetBrainsMonoNL-BoldItalic.ttf",
+    "font-size": 50,
+    "width-margin": 5,
+    "height-margin": 5,
+    "spacing": 40,
+    "background-color": [
+        255,
+        255,
+        255
+    ],
+    "style": "NoStyle",
+    "styles": [],
+    "source-code": [
+        "[AOI function][AOI L0]def compute(string[AOI type]: str[/AOI type], start[AOI type]: int[/AOI type], end[AOI type]: int[/AOI type])[AOI return_type] -> int[/AOI return_type]:[/AOI L0]",
+        "    [AOI L1]result[AOI type]: int[/AOI type] = 0[/AOI L1]",
+        "    [AOI L2]keys[AOI type]: list[str][/AOI type] = string.split(\" \")[/AOI L2]",
+        "    [AOI L3]for i in range(len(keys)):[/AOI L3]",
+        "        [AOI L4]key[AOI type]: int[/AOI type] = int(keys[i])[/AOI L4]",
+        "        [AOI L5]check[AOI type]: bool[/AOI type] = (key >= start and key <= end)[/AOI L5]",
+        "        [AOI L6]if check:[/AOI L6]",
+        "            [AOI L7]result += 1[/AOI L7]",
+        "    [AOI L8]return result[/AOI L8][/AOI function]"
+    ],
+    "story_order": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "execution_order": [1]
+}

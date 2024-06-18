@@ -1,0 +1,21 @@
+Task;Difficulty;Comment
+countLetters;1;
+palindrome;1;
+power;1;return type ist unnötig
+leastCommonMultiple;2;
+forwardBackward;1;
+linearSearch;1;
+bubbleSort;1;
+commonChars;2;varnames sind zu lang
+unrolledSort;1;
+capitalizeFirstLetter;1;
+validParentheses;1;
+crossSum;1;
+factorial;1;
+squareRoot;1;
+countIntegerInterval;1;
+arrayAverage;1;
+prime;1;
+binaryToDecimal;4;
+containsSubstring;3;
+binarySearch;1;

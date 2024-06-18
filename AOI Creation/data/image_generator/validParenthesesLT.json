@@ -1,0 +1,33 @@
+{
+    "font-normal": "JetBrainsMonoNL-Regular.ttf",
+    "font-bold": "JetBrainsMonoNL-Bold.ttf",
+    "font-italic": "JetBrainsMonoNL-Italic.ttf",
+    "font-bold-italic": "JetBrainsMonoNL-BoldItalic.ttf",
+    "font-size": 50,
+    "width-margin": 5,
+    "height-margin": 5,
+    "spacing": 40,
+    "background-color": [
+        255,
+        255,
+        255
+    ],
+    "style": "NoStyle",
+    "styles": [],
+    "source-code": [
+        "[AOI function][AOI L0]def compute(abcdefgh[AOI type]: str[/AOI type])[AOI return_type] -> bool[/AOI return_type]:[/AOI L0]",
+        "    [AOI L1]ijklm[AOI type]: list[str][/AOI type] = [][/AOI L1]",
+        "    [AOI L2]for n in abcdefgh:[/AOI L2]",
+        "        [AOI L3]if n == '(':[/AOI L3]",
+        "            [AOI L4]ijklm.append(')')[/AOI L4]",
+        "        [AOI L5]elif n == '{':[/AOI L5]",
+        "            [AOI L6]ijklm.append('}')[/AOI L6]",
+        "        [AOI L7]elif n == '[':[/AOI L7]",
+        "            [AOI L8]ijklm.append(']')[/AOI L8]",
+        "        [AOI L9]elif len(ijklm) == 0 or ijklm.pop() != n:[/AOI L9]",
+        "            [AOI L10]return False[/AOI L10]",
+        "    [AOI L11]return len(ijklm) == 0[/AOI L11][/AOI function]"
+    ],
+    "story_order": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "execution_order": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+}

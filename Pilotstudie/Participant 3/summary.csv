@@ -1,0 +1,22 @@
+Snippet;Variation;given_Answer;correct_Answer;Time
+WarmUp;;"pwru";"oefl";47809
+countLetters;LT;4;4;83705
+leastCommonMultiple;LN;30;30;71058
+bubbleSort;LT;[1,2,3,4,5];[1,2,3,4,5];125239
+forwardBackward;LN;"pricelesssselecirp";"pricelesssselecirp";70433
+palindrome;LN;True;True;47686
+commonChars;LN;2;2;43132
+validParentheses;LT;False;False;105078
+squareRoot;LN;[3.0,5.0,4.0,10.0];[3.0,5.0,4.0,10.0];64257
+power;LT;9;9;24558
+arrayAverage;LN;4.0;4.0;80654
+containsSubstring;LN;True;True;148925
+linearSearch;LN;2;2;22182
+countIntegerInterval;LN;4;4;39336
+factorial;LT;24;24;25222
+unrolledSort;LT;[8,9,11,12];[8,9,11,12];174766
+capitalizeFirstLetter;LN;"Hello World";"Hello World";125987
+crossSum;LN;3247;16;31814
+binarySearch;LT;1;1;47795
+prime;LT;True;True;46370
+

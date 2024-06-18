@@ -1,0 +1,10 @@
+Number;Task;Answer_Out;Time;TimeOut;SubjectID
+0;WarmUp;;45330;False;eab8e2ba-5e21-4a72-8e02-741b64028f19
+1;palindromeLT;;286190;False;eab8e2ba-5e21-4a72-8e02-741b64028f19
+2;countLettersLN;;255853;False;eab8e2ba-5e21-4a72-8e02-741b64028f19
+3;countIntegerIntervalLT;;277313;False;eab8e2ba-5e21-4a72-8e02-741b64028f19
+4;binarySearchLN;;305116;True;eab8e2ba-5e21-4a72-8e02-741b64028f19
+5;linearSearchLT;;63202;False;eab8e2ba-5e21-4a72-8e02-741b64028f19
+6;binaryToDecimalLN;;306143;True;eab8e2ba-5e21-4a72-8e02-741b64028f19
+7;arrayAverageLT;;124961;False;eab8e2ba-5e21-4a72-8e02-741b64028f19
+8;containsSubstringLN;;303204;True;eab8e2ba-5e21-4a72-8e02-741b64028f19

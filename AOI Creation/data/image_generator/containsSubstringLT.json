@@ -1,0 +1,32 @@
+{
+    "font-normal": "JetBrainsMonoNL-Regular.ttf",
+    "font-bold": "JetBrainsMonoNL-Bold.ttf",
+    "font-italic": "JetBrainsMonoNL-Italic.ttf",
+    "font-bold-italic": "JetBrainsMonoNL-BoldItalic.ttf",
+    "font-size": 50,
+    "width-margin": 5,
+    "height-margin": 5,
+    "spacing": 40,
+    "background-color": [
+        255,
+        255,
+        255
+    ],
+    "style": "NoStyle",
+    "styles": [],
+    "source-code": [
+        "[AOI function][AOI L0]def compute(abcd[AOI type]: str[/AOI type], efghijklm[AOI type]: str[/AOI type])[AOI return_type] -> bool[/AOI return_type]:[/AOI L0]",
+        "    [AOI L1]for n in range(len(abcd)):[/AOI L1]",
+        "        [AOI L2]for o in range(len(efghijklm)):[/AOI L2]",
+        "            [AOI L3]if n + o >= len(abcd):[/AOI L3]",
+        "                [AOI L4]break[/AOI L4]",
+        "            [AOI L5]if abcd[n + o] != efghijklm[o]:[/AOI L5]",
+        "                [AOI L6]break[/AOI L6]",
+        "            [AOI L7]else:[/AOI L7]",
+        "                [AOI L8]if o == len(efghijklm) - 1:[/AOI L8]",
+        "                    [AOI L9]return True[/AOI L9]",
+        "    [AOI L10]return False[/AOI L10][/AOI function]"
+    ],
+    "story_order": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "execution_order": [1]
+}

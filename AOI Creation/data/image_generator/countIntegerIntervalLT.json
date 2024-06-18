@@ -1,0 +1,30 @@
+{
+    "font-normal": "JetBrainsMonoNL-Regular.ttf",
+    "font-bold": "JetBrainsMonoNL-Bold.ttf",
+    "font-italic": "JetBrainsMonoNL-Italic.ttf",
+    "font-bold-italic": "JetBrainsMonoNL-BoldItalic.ttf",
+    "font-size": 50,
+    "width-margin": 5,
+    "height-margin": 5,
+    "spacing": 40,
+    "background-color": [
+        255,
+        255,
+        255
+    ],
+    "style": "NoStyle",
+    "styles": [],
+    "source-code": [
+        "[AOI function][AOI L0]def compute(abcdef[AOI type]: str[/AOI type], ghijk[AOI type]: int[/AOI type], lmn[AOI type]: int[/AOI type])[AOI return_type] -> int[/AOI return_type]:[/AOI L0]",
+        "    [AOI L1]opqrst[AOI type]: int[/AOI type] = 0[/AOI L1]",
+        "    [AOI L2]uvwx[AOI type]: list[str][/AOI type] = abcdef.split(\" \")[/AOI L2]",
+        "    [AOI L3]for y in range(len(uvwx)):[/AOI L3]",
+        "        [AOI L4]zab[AOI type]: int[/AOI type] = int(uvwx[y])[/AOI L4]",
+        "        [AOI L5]cdefg[AOI type]: bool[/AOI type] = (zab >= ghijk and zab <= lmn)[/AOI L5]",
+        "        [AOI L6]if cdefg:[/AOI L6]",
+        "            [AOI L7]opqrst += 1[/AOI L7]",
+        "    [AOI L8]return opqrst[/AOI L8][/AOI function]"
+    ],
+    "story_order": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "execution_order": [1]
+}

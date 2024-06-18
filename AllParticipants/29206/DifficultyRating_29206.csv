@@ -1,0 +1,13 @@
+Task;Difficulty;Comment
+factorial;2;
+binaryToDecimal;3;
+palindrome;5;
+bubbleSort;3;
+linearSearch;1;Fehler gemacht bei der Antwort, weil verwirrt, was zurückgibt
+unrolledSort;2;
+leastCommonMultiple;3;
+countLetters;2;
+squareRoot;2;
+capitalizeFirstLetter;5;
+binarySearch;5;Code nicht in der Zeit verstanden
+validParentheses;2;

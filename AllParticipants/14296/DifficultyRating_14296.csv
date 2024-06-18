@@ -1,0 +1,20 @@
+Task;Difficulty;Comment
+unrolledSort;2;
+countLetters;1;
+forwardBackward;3;range war unbekannt
+containsSubstring;2;
+squareRoot;1;
+binaryToDecimal;3;kannte Schreibweise von [:-1] nicht
+arrayAverage;3;
+validParentheses;4;
+factorial;1;
+prime;4;hatte Sinn nicht verstanden
+capitalizeFirstLetter;3;kannte nicht upper()
+crossSum;4;nicht verstanden, dass es Strings sind
+palindrome;1;
+binarySearch;2;
+leastCommonMultiple;1;
+commonChars;2;
+countIntegerInterval;2;
+linearSearch;2;nicht gemerkt, dass i statt x zurückgegeben wird
+power;2;

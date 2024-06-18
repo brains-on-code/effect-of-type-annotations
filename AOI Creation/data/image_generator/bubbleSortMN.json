@@ -1,0 +1,27 @@
+{
+    "font-normal": "JetBrainsMonoNL-Regular.ttf",
+    "font-bold": "JetBrainsMonoNL-Bold.ttf",
+    "font-italic": "JetBrainsMonoNL-Italic.ttf",
+    "font-bold-italic": "JetBrainsMonoNL-BoldItalic.ttf",
+    "font-size": 50,
+    "width-margin": 5,
+    "height-margin": 5,
+    "spacing": 40,
+    "background-color": [
+        255,
+        255,
+        255
+    ],
+    "style": "NoStyle",
+    "styles": [],
+    "source-code": [
+        "[AOI function][AOI L0]def compute(array):[/AOI L0]",
+        "    [AOI L1]for i in range(len(array)):[/AOI L1]",
+        "        [AOI L2]for j in range(i, 0, -1):[/AOI L2]",
+        "            [AOI L3]if array[j-1] > array[j]:[/AOI L3]",
+        "                [AOI L4]array[j-1], array[j] = array[j], array[j-1][/AOI L4]",
+        "    [AOI L5]return array[/AOI L5][/AOI function]"
+    ],
+    "story_order": [1, 2, 3, 4, 5, 6],
+    "execution_order": [1]
+}

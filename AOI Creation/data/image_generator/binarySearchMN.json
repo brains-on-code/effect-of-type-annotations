@@ -1,0 +1,33 @@
+{
+    "font-normal": "JetBrainsMonoNL-Regular.ttf",
+    "font-bold": "JetBrainsMonoNL-Bold.ttf",
+    "font-italic": "JetBrainsMonoNL-Italic.ttf",
+    "font-bold-italic": "JetBrainsMonoNL-BoldItalic.ttf",
+    "font-size": 50,
+    "width-margin": 5,
+    "height-margin": 5,
+    "spacing": 40,
+    "background-color": [
+        255,
+        255,
+        255
+    ],
+    "style": "NoStyle",
+    "styles": [],
+    "source-code": [
+        "[AOI function][AOI L0]def compute(array, key):[/AOI L0]",
+        "    [AOI L1]index1 = 0[/AOI L1]",
+        "    [AOI L2]index2 = len(array) - 1[/AOI L2]",
+        "    [AOI L3]while index1 <= index2:[/AOI L3]",
+        "        [AOI L4]m = (index1 + index2) // 2[/AOI L4]",
+        "        [AOI L5]if key < array[m]:[/AOI L5]",
+        "            [AOI L6]index2 = m - 1[/AOI L6]",
+        "        [AOI L7]elif key > array[m]:[/AOI L7]",
+        "            [AOI L8]index1 = m + 1[/AOI L8]",
+        "        [AOI L9]else:[/AOI L9]",
+        "            [AOI L10]return m[/AOI L10]",
+        "    [AOI L11]return -1[/AOI L11][/AOI function]"
+    ],
+    "story_order": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "execution_order": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+}

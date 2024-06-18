@@ -1,0 +1,4 @@
+EyeXScreenWidth;EyeXScreenHeight;SubjectID
+0;0;4a008c2b-73ad-4ea7-b7e2-52b204df0490
+Age;Gender;Eyesight;NrFalseInputs_generalQuestions;CourseOfStudy;Semester;StudyBefore;Algorithms;Job;NrFalseInputs_studentQuestions;YearsProgramming;ProgrammingLanguages;RecentProgrammingLanguages;ProgrammingLately;PythonProgramming;OverallExperience;Classmates;NrFalseInputs_progQuestions;ActualScreenWidth;ActualScreenHeight;EyeXScreenWidth;EyeXScreenHeight;SubjectID
+23;Male;No;0;Math and Computer Science;6;Yes;No;Undergraduate Student (Bachelor Studies);0;9;Python, C, Java, Cotlin, OCaml, Swift, Java Script;OCaml, Swift, Python, Java Script;Weekly;Average;Average;Average;0;2560;1440;2560;1440;4a008c2b-73ad-4ea7-b7e2-52b204df0490

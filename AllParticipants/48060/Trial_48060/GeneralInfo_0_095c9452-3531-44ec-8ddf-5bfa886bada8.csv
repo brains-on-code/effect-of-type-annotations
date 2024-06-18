@@ -1,0 +1,4 @@
+EyeXScreenWidth;EyeXScreenHeight;SubjectID
+0;0;095c9452-3531-44ec-8ddf-5bfa886bada8
+Age;Gender;Eyesight;NrFalseInputs_generalQuestions;CourseOfStudy;Semester;StudyBefore;Algorithms;Job;NrFalseInputs_studentQuestions;YearsProgramming;ProgrammingLanguages;RecentProgrammingLanguages;ProgrammingLately;PythonProgramming;OverallExperience;Classmates;NrFalseInputs_progQuestions;ActualScreenWidth;ActualScreenHeight;EyeXScreenWidth;EyeXScreenHeight;SubjectID
+23;Female;No;0;Media Informatics;9;Yes;No;Undergraduate Student (Bachelor Studies);0;6;JavaScript,HTML,CSS,Python (most frequent) Java,SQL (some experience);JavaScript;Daily;Average;Inexperienced;Average;0;2560;1440;2560;1440;095c9452-3531-44ec-8ddf-5bfa886bada8
