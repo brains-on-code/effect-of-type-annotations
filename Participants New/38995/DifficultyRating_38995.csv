@@ -1,0 +1,21 @@
+Task;Difficulty;Comment
+containsSubstringLT; 3;
+countLettersLN; 4;Variable names long
+leastCommonMultipleLT; 4;
+unrolledSortLT; 3;Confused in the beginning because of the squishing of the variables, just focused on the last if condition and then guessed the previous ones
+powerLT; 1;
+commonCharsLT; 5;Variable names are too long!
+squareRootLN; 2;
+capitalizeFirstLetterLT; 5;Confusing slicing of string
+binarySearchLN; 4;Forgot range() parameters (step, etc.)
+forwardBackwardLN; 3;
+crossSumLT; 2;
+arrayAverageLT; 1;
+binaryToDecimalLN; 3;Didn't know while reading the code what it does, but looking at the solutions, I was able to guess the answer based on the binary input
+bubbleSortLT; 1;
+palindromeLT; 3;Didn't understand why we have to do -1-k
+countIntegerIntervalLT; 4;
+factorialLN; 1;
+linearSearchLT; 2;
+primeLT; 2;
+validParenthesesLT; 2;
