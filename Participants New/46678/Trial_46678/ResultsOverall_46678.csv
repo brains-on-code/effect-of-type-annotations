@@ -1,0 +1,23 @@
+Number;Task;Answer_Out;Time;TimeOut;SubjectID
+0;WarmUp;"pwru";12440;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+1;unrolledSortLN;[8, 9, 11, 12];23522;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+2;powerLN;8;19324;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+3;countLettersLT;4;27197;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+4;binaryToDecimalLT;13;36124;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+5;validParenthesesLT;False;44480;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+6;binarySearchLN;1;43491;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+7;commonCharsLT;2;39012;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+8;primeLT;True;22686;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+9;linearSearchLT;1;19276;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+10;capitalizeFirstLetterLN;"Hello World";32780;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+11;arrayAverageLN;4.0;23555;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+12;bubbleSortLN;[1,2,3,4,5];52744;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+13;forwardBackwardLT;"pricelesssselecirp";41437;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+14;factorialLN;24;8530;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+15;containsSubstringLT;True;50475;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+16;crossSumLN;16;25291;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+17;squareRootLT;[3.0, 5.0, 4.0, 10.0];17745;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+18;leastCommonMultipleLT;30;17811;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+19;countIntegerIntervalLN;4;44394;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+20;palindromeLT;True;25938;False;bfae9f90-55ec-4cf3-910d-e5666ed667fe
+

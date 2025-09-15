@@ -1,0 +1,21 @@
+Task;Difficulty;Comment
+bubbleSort;3;
+linearSearch;1;
+prime;1;
+binarySearch;2;
+leastCommonMultiple;1;
+factorial;1;
+containsSubstring;3;
+power;1;
+binaryToDecimal;4; some parts of the code weren't clear to me because I am not very used to writing in Python  
+arrayAverage;1; Code is so clear 
+forwardBackward;3;
+unrolledSort;1;
+countIntegerInterval;3; same comment as binaryToDecimal
+palindrome;1; 
+countLetters;2;
+commonChars;3;
+validParentheses;1;
+capitalizeFirstLetter;1;
+squareRoot;4; The code snippet was hard to follow
+crossSum;1;
