@@ -24,6 +24,7 @@ def participant_fixation_saccades(participant_df):
     print('--> roughly fixation length in msec: ', round(fixation_length, 2))
     print('--> roughly saccade distance in pixel: ', round(saccade_distance, 2))
 
+    participant_df['results']['NumFixations'] = len(participant_df['fixations'])
     participant_df['results']['FixationsPerSecond'] = fixations_per_second
     participant_df['results']['FixationLength'] = fixation_length
     participant_df['results']['SaccadesPerSecond'] = saccades_per_second

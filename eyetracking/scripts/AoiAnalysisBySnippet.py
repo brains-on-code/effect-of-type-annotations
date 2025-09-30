@@ -179,9 +179,10 @@ def run_calculations(preprocessed_data, group, scrambled, results_for_anova):
                     'Participant': participant,
                     'Expert': expert,
                     'Snippet': snippet,
+                    'NumberOfFixations': len(fixations_part),
+                    'FixationsPerSecond': len(fixations_part) / (sum([fixation['fixation']['TimeLength'] for fixation in fixations_part]) / 1000),
                     'Linearity': get_linearity_category(snippet),
                     'HasError': is_error_snippet(expert, snippet, scrambled),
-                    # 'Scrambled': scrambled,
 
                     'HitsLine': len(reading_order_line_without_unmatched) / len(fixations_part),
                     'HitsType': len(reading_order_types_without_unmatched) / len(fixations_part),

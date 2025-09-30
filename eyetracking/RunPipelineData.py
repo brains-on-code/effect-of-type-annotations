@@ -11,12 +11,12 @@ OVERRIDE_PREPROCESSED_DATA = True
 
 # STEP 2: look for raw data and preprocess it
 for group in config.PARTICIPANT_GROUPS:
-    if not path.isfile(path.join(config.PATH_DATA_RAW, "PreprocessedData" + group + ".pkl")) or OVERRIDE_PREPROCESSED_DATA:
+    if not path.isfile(
+            path.join(config.PATH_DATA_RAW, "PreprocessedData" + group + ".pkl")) or OVERRIDE_PREPROCESSED_DATA:
         print("Reading and preprocessing raw data for ", group)
         ParticipantSummary.preprocess_raw_data(group)
     else:
         print("Using existing preprocessed data for ", group)
-
 
 # STEP 3: load preprocessed data
 data_preprocessed = {}
@@ -33,8 +33,9 @@ if config.RUN_EXPORT_OGAMA:
 # STEP 5A: analyse data for general metrics (fixation times, saccade rate, ...)
 data_analyzed = {}
 data_results = {}
-data_aoi = pandas.DataFrame(columns=['Participant', 'Expert', 'Snippet', 'Linearity', 'HasError', 
-                                    # 'Scrambled', 
+data_aoi = pandas.DataFrame(columns=['Participant', 'Expert', 'Snippet',
+                                     'NumberOfFixations', 'FixationsPerSecond',
+                                     'Linearity', 'HasError',
                                      'HitsBlock', 'HitsLine', 'HitsType', 'VerticalNext', 'VerticalLater',
                                      'Regression', 'HorizontalLater', 'LineRegression', 'SaccadeLength', 'StoryOrder_Naive_Score', 'StoryOrder_Dynamic_Score',
                                      'StoryOrder_Dynamic_Repetitions', 'ExecOrder_Naive_Score', 'ExecOrder_Dynamic_Score', 'ExecOrder_Dynamic_Repetitions'])
@@ -59,8 +60,3 @@ print(data_aoi.head(5))
 data_aoi.to_csv('output/AOI/Metrics_Data_for_Anova.csv', index=False, sep=';')
 
 # todo continue statistical analysis in R with above .csv file
-
-
-
-
-

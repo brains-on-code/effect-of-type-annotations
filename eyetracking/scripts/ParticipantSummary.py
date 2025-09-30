@@ -67,6 +67,7 @@ def run_analysis_pipeline(participant_dfs):
 
     # todo prepare more experiment-level contrasts for novice vs expert: fixations/saccade on (non)scrambled level, task level, behavioral data
     results = {
+        'NumFixations': [],
         'FixationsPerSecond': [],
         'FixationLength': [],
         'SaccadesPerSecond': [],
@@ -74,6 +75,7 @@ def run_analysis_pipeline(participant_dfs):
     }
 
     for participant_df in participant_dfs:
+        results['NumFixations'].append(participant_df['results']['NumFixations'])
         results['FixationsPerSecond'].append(participant_df['results']['FixationsPerSecond'])
         results['FixationLength'].append(participant_df['results']['FixationLength'])
         results['SaccadesPerSecond'].append(participant_df['results']['SaccadesPerSecond'])
