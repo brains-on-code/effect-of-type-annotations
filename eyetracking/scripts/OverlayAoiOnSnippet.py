@@ -21,6 +21,7 @@ def compute_aois(resolution, snippet, scrambled=False):
         AOIs = {
             "lines": [],
             "types": [],
+            "return_types": [],
             "blocks": []
         }
 
@@ -33,7 +34,14 @@ def compute_aois(resolution, snippet, scrambled=False):
                     'y_bottom': aoi['y_bottom'],
                     'color': aoi['color']
                 })
-            
+            elif aoi['name'] == 'return_type':
+                AOIs['return_types'].append({
+                    'x_left': aoi['x_left'],
+                    'x_right': aoi['x_right'],
+                    'y_top': aoi['y_top'],
+                    'y_bottom': aoi['y_bottom'],
+                    'color': aoi['color']
+                })
             elif aoi['name'] == 'function':
                 AOIs['blocks'].append({
                     'x_left': aoi['x_left'],

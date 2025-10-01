@@ -1,0 +1,14 @@
+Sequence;ID;Snippet;StartingTime;SnippetPath
+0;0;WarmUp;439952779;WarmUp.jpg
+1;1;factorialLN;440139990;factorialLN.jpg
+2;2;binaryToDecimalLN;440298281;binaryToDecimalLN.jpg
+3;3;palindromeLT;440559068;palindromeLT.jpg
+4;4;bubbleSortLT;440795424;bubbleSortLT.jpg
+5;5;linearSearchLT;441037611;linearSearchLT.jpg
+6;6;unrolledSortLN;441137216;unrolledSortLN.jpg
+7;7;leastCommonMultipleLT;441329550;leastCommonMultipleLT.jpg
+8;8;countLettersLT;441483994;countLettersLT.jpg
+9;9;squareRootLN;441693541;squareRootLN.jpg
+10;10;capitalizeFirstLetterLT;441973603;capitalizeFirstLetterLT.jpg
+11;11;binarySearchLT;442419473;binarySearchLT.jpg
+12;12;validParenthesesLN;442732231;validParenthesesLN.jpg

@@ -7,7 +7,7 @@ from scripts import ParticipantSummary, AoiAnalysisBySnippet, AnovaAnalysis
 import config
 
 # STEP 1. look for config files and sanity-check whether everything is there
-OVERRIDE_PREPROCESSED_DATA = True
+OVERRIDE_PREPROCESSED_DATA = False
 
 # STEP 2: look for raw data and preprocess it
 for group in config.PARTICIPANT_GROUPS:

@@ -87,6 +87,7 @@ def run_calculations(preprocessed_data, group, scrambled, results_for_anova):
 
                 aoi_line_hit = None
                 aoi_types_hit = None
+                aoi_return_types_hit = None
                 aoi_blocks_hit = None
 
                 # go through each AOI and check whether there is a hit
@@ -102,6 +103,12 @@ def run_calculations(preprocessed_data, group, scrambled, results_for_anova):
                             aoi_types_hit = nr_types + 1
                             break
 
+                for nr_return_types, aoi_return_types in enumerate(AOIs['return_types']):
+                    if aoi_return_types['x_left'] <= x < aoi_return_types['x_right']:
+                        if aoi_return_types['y_bottom'] <= y < aoi_return_types['y_top']:
+                            aoi_return_types_hit = nr_return_types + 1
+                            break
+
                 for nr_blocks, aoi_blocks in enumerate(AOIs['blocks']):
                     if aoi_blocks['x_left'] <= x < aoi_blocks['x_right']:
                         if aoi_blocks['y_bottom'] <= y < aoi_blocks['y_top']:
@@ -115,6 +122,7 @@ def run_calculations(preprocessed_data, group, scrambled, results_for_anova):
                 matched_fixations_by_participant[fixation['Participant']].append({
                     'line': aoi_line_hit,
                     'types': aoi_types_hit,
+                    'return_types': aoi_return_types_hit,
                     'blocks': aoi_blocks_hit,
                     'fixation': fixation
                 })
@@ -134,6 +142,9 @@ def run_calculations(preprocessed_data, group, scrambled, results_for_anova):
 
                 fixations_aoi_cleaned_types = list(filter(lambda elem: elem['types'], matched_fixations_by_participant[participant]))
                 reading_order_types_without_unmatched = [fixation['types'] for fixation in fixations_aoi_cleaned_types]
+
+                fixations_aoi_cleaned_return_types = list(filter(lambda elem: elem['return_types'], matched_fixations_by_participant[participant]))
+                reading_order_return_types_without_unmatched = [fixation['return_types'] for fixation in fixations_aoi_cleaned_return_types]
 
                 fixations_aoi_cleaned_blocks = list(filter(lambda elem: elem['blocks'], matched_fixations_by_participant[participant]))
                 reading_order_blocks_without_unmatched = [fixation['blocks'] for fixation in fixations_aoi_cleaned_blocks]
@@ -186,6 +197,7 @@ def run_calculations(preprocessed_data, group, scrambled, results_for_anova):
 
                     'HitsLine': len(reading_order_line_without_unmatched) / len(fixations_part),
                     'HitsType': len(reading_order_types_without_unmatched) / len(fixations_part),
+                    'HitsReturnType': len(reading_order_return_types_without_unmatched) / len(fixations_part),
                     'HitsBlock': len(reading_order_blocks_without_unmatched) / len(fixations_part),
 
                     'VerticalNext': len(vertical_next) / len(fixations_aoi_cleaned_line),
