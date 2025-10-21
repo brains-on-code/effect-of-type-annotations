@@ -15,7 +15,7 @@
     "style": "NoStyle",
     "styles": [],
     "source-code": [
-        "[AOI function][AOI L0]def compute(array[AOI type]: list[int][/AOI type], [AOI type]x: int[/AOI type])[AOI type] -> int[/AOI type]:[/AOI L0]",
+        "[AOI function][AOI L0]def compute(array[AOI type]: list[int][/AOI type], [AOI type]x: int[/AOI type])[AOI return_type] -> int[/AOI return_type]:[/AOI L0]",
         "    [AOI L1]for i in range(len(array)):[/AOI L1]",
         "        [AOI L2]if array[i] == x:[/AOI L2]",
         "            [AOI L3]return i[/AOI L3]",

@@ -9,7 +9,6 @@ from pygments.formatters.bbcode import BBCodeFormatter
 from pygments.lexers.jvm import JavaLexer
 from pygments.lexers.python import Python3Lexer
 from pygments.styles import get_style_by_name
-from pygments.styles import no
 
 def parse_bbcode_list(bbcode, logging):
     """parse code letter by letter, removing metadata characters but assigning them to the parsed letter dictionary"""
