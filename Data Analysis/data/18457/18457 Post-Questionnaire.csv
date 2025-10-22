@@ -1,0 +1,7 @@
+ExperiencePCTasks;ExperiencePCTasksComment;FeelingStudy;FeelingStudyComment;ProblemSolvingStrategies;ChangeComprehension;TAComprehension;TAComprehensionComment;TAComprehensionGeneral;TAComprehensionGeneralComment;LaterCodeSnippets
+4;"The source of difficulty is the random variable naming which made me take
+a longer time to comprehend the code snippets.";2;;"- Immediately stopped depending on the variable names
+- Use the variable types, indexing, slicing, operators applied to the input in order to guess the input-output relation
+- Related the semantic of the function to the algorithms I’m familiar with";Yes. I mentioned them in 4 (see above).;True;"- enable classifying the code as a manipulation of text, integers, etc.
+- know the expected output type";True;"- know the expected type of specification (expected input-output)
+- understand the role of the local variables (which are usually indices or flags)";later

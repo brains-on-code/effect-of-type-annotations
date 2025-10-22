@@ -1,9 +1,0 @@
-ExperiencePCTasks;ExperiencePCTasksComment;FeelingStudy;FeelingStudyComment;ProblemSolvingStrategies;ChangeComprehension;TAComprehension;TAComprehensionComment;TAComprehensionGeneral;TAComprehensionGeneralComment;LaterCodeSnippets
-2;"Some snippets with many variables were difficult due to hard to remember
-variable names";3;"";"code snippets with more variables required active effort to remember what
-each variable stores, especially if what snippet does was not known.";"Some long code snippets caused slight frustration when they were
-presented due to the expectation of many variables";True;"On most snippets i did not pay much attention to type annotations, but in
-some less clear cases they felt helpful to see what type of data we are
-working with";True;"In complex cases and especially with custom types it can help a lot to have
-some additional information on what data one is working with.";"earlier snippets felt somewhat easier to comprehend as they had generally
-shorter identifiers and less length in the snippets"

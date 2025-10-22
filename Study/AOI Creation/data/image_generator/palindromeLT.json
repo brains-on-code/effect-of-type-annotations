@@ -1,0 +1,29 @@
+{
+    "font-normal": "JetBrainsMonoNL-Regular.ttf",
+    "font-bold": "JetBrainsMonoNL-Bold.ttf",
+    "font-italic": "JetBrainsMonoNL-Italic.ttf",
+    "font-bold-italic": "JetBrainsMonoNL-BoldItalic.ttf",
+    "font-size": 50,
+    "width-margin": 5,
+    "height-margin": 5,
+    "spacing": 40,
+    "background-color": [
+        255,
+        255,
+        255
+    ],
+    "style": "NoStyle",
+    "styles": [],
+    "source-code": [
+        "[AOI function][AOI L0]def compute(abcd[AOI type]: str[/AOI type])[AOI return_type] -> bool[/AOI return_type]:[/AOI L0]",
+        "    [AOI L1]efghij[AOI type]: bool[/AOI type] = True[/AOI L1]",
+        "    [AOI L2]for k in range(0, len(abcd) // 2):[/AOI L2]",
+        "        [AOI L3]l[AOI type]: int[/AOI type] = len(abcd) - 1 - k[/AOI L3]",
+        "        [AOI L4]if abcd[k] != abcd[l]:[/AOI L4]",
+        "            [AOI L5]efghij = False[/AOI L5]",
+        "            [AOI L6]break[/AOI L6]",
+        "    [AOI L7]return efghij[/AOI L7][/AOI function]"
+    ],
+    "story_order": [1, 2, 3, 4, 5, 6, 7, 8],
+    "execution_order": [1]
+}

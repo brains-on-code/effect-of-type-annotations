@@ -1,0 +1,14 @@
+Sequence;ID;Snippet;StartingTime;SnippetPath
+0;0;WarmUp;166569947;WarmUp.jpg
+1;1;bubbleSortMN;166698529;bubbleSortMN.jpg
+2;2;leastCommonMultipleMN;166948362;leastCommonMultipleMN.jpg
+3;3;binarySearchMT;167056773;binarySearchMT.jpg
+4;4;linearSearchMT;167440272;linearSearchMT.jpg
+5;5;containsSubstringMT;167567730;containsSubstringMT.jpg
+6;6;squareRootMT;168029073;squareRootMT.jpg
+7;7;crossSumMT;168376718;crossSumMT.jpg
+8;8;validParenthesesMN;168463150;validParenthesesMN.jpg
+9;9;commonCharsMT;168625865;commonCharsMT.jpg
+10;10;binaryToDecimalMT;168771060;binaryToDecimalMT.jpg
+11;11;powerMT;169147736;powerMT.jpg
+12;12;unrolledSortMT;169268960;unrolledSortMT.jpg

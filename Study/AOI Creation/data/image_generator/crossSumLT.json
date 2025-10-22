@@ -1,0 +1,25 @@
+{
+    "font-normal": "JetBrainsMonoNL-Regular.ttf",
+    "font-bold": "JetBrainsMonoNL-Bold.ttf",
+    "font-italic": "JetBrainsMonoNL-Italic.ttf",
+    "font-bold-italic": "JetBrainsMonoNL-BoldItalic.ttf",
+    "font-size": 50,
+    "width-margin": 5,
+    "height-margin": 5,
+    "spacing": 40,
+    "background-color": [
+        255,
+        255,
+        255
+    ],
+    "style": "NoStyle",
+    "styles": [],
+    "source-code": [
+        "[AOI function][AOI L0]def compute(abcdef[AOI type]: int[/AOI type])[AOI return_type] -> int[/AOI return_type]:[/AOI L0]",
+        "    [AOI L1]if abcdef == 0:[/AOI L1]",
+        "        [AOI L2]return 0[/AOI L2]",
+        "    [AOI L3]return (abcdef % 10) + compute(abcdef // 10)[/AOI L3][/AOI function]"
+    ],
+    "story_order": [1, 2, 3, 4],
+    "execution_order": [1]
+}

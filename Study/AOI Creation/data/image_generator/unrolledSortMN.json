@@ -1,0 +1,33 @@
+{
+    "font-normal": "JetBrainsMonoNL-Regular.ttf",
+    "font-bold": "JetBrainsMonoNL-Bold.ttf",
+    "font-italic": "JetBrainsMonoNL-Italic.ttf",
+    "font-bold-italic": "JetBrainsMonoNL-BoldItalic.ttf",
+    "font-size": 50,
+    "width-margin": 5,
+    "height-margin": 5,
+    "spacing": 40,
+    "background-color": [
+        255,
+        255,
+        255
+    ],
+    "style": "NoStyle",
+    "styles": [],
+    "source-code": [
+        "[AOI function][AOI L0]def compute(a, b, c, d):[/AOI L0]",
+        "    [AOI L1]if a > b:[/AOI L1]",
+        "        [AOI L2]b, a = a, b[/AOI L2]",
+        "    [AOI L3]if c > d:[/AOI L3]",
+        "        [AOI L4]d, c = c, d[/AOI L4]",
+        "    [AOI L5]if a > c:[/AOI L5]",
+        "        [AOI L6]c, a = a, c[/AOI L6]",
+        "    [AOI L7]if b > d:[/AOI L7]",
+        "        [AOI L8]d, b = b, d[/AOI L8]",
+        "    [AOI L9]if b > c:[/AOI L9]",
+        "        [AOI L10]c, b = b, c[/AOI L10]",
+        "    [AOI L11]return [a, b, c, d][/AOI L11][/AOI function]"
+    ],
+    "story_order": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "execution_order": [1]
+}

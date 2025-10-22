@@ -1,0 +1,29 @@
+{
+    "font-normal": "JetBrainsMonoNL-Regular.ttf",
+    "font-bold": "JetBrainsMonoNL-Bold.ttf",
+    "font-italic": "JetBrainsMonoNL-Italic.ttf",
+    "font-bold-italic": "JetBrainsMonoNL-BoldItalic.ttf",
+    "font-size": 50,
+    "width-margin": 5,
+    "height-margin": 5,
+    "spacing": 40,
+    "background-color": [
+        255,
+        255,
+        255
+    ],
+    "style": "NoStyle",
+    "styles": [],
+    "source-code": [
+        "[AOI function][AOI L0]def compute(abcdefgh[AOI type]: str[/AOI type])[AOI return_type] -> str[/AOI return_type]:[/AOI L0]",
+        "    [AOI L1]ijklmn[AOI type]: list[int][/AOI type] = [][/AOI L1]",
+        "    [AOI L2]opqrs[AOI type]: list[str][/AOI type] = abcdefgh.split()[/AOI L2]",
+        "    [AOI L3]for t in range(len(opqrs)):[/AOI L3]",
+        "        [AOI L4]if t > 0:[/AOI L4]",
+        "            [AOI L5]ijklmn.append(\" \")[/AOI L5]",
+        "        [AOI L6]ijklmn.append(opqrs[t][0].upper() + opqrs[t][1:])[/AOI L6]",
+        "    [AOI L7]return \"\".join(ijklmn)[/AOI L7][/AOI function]"
+    ],
+    "story_order": [1, 2, 3, 4, 5, 6, 7, 8],
+    "execution_order": []
+}

@@ -1,0 +1,13 @@
+ExperiencePCTasks;ExperiencePCTasksComment;FeelingStudy;FeelingStudyComment;ProblemSolvingStrategies;ChangeComprehension;TAComprehension;TAComprehensionComment;TAComprehensionGeneral;TAComprehensionGeneralComment;LaterCodeSnippets
+3;Will be easier if the code is not obfuscated;4;Time to party;"At first I tried to look at the code line by line and comprehend it linearly, after
+a while I realized some of them are already well-established algorithms, so
+in that case I tried to recognize which algorithm it is and just applied it.";"At first I was a bit overwhelmed by the variable names and trying to match
+which name belongs to which variable, and that was quite frustrating. After a
+while I stopped doing so and instead just focused on the logic and that made
+things easier and I became more efficient.";True;"Helped me distinguish between strings and lists. And since the variable
+names are not very helpful, at some point I just ignored the names and
+remembered the types instead.";True;"If I already know the types then it would be easier to prepare myself for the
+kind of operations that could happen to them. And also help me quickly see
+what the input and output should look like. So it is also easier to guess what
+the functions are trying to achieve.";"Generally later snippets are easier because I felt more prepared,
+experienced and confident in doing the task."

@@ -1,7 +1,0 @@
-YearsProgramming;How long have you been programming? (in years);Int;0;50;XXXXX
-ProgrammingLately;How often do you program lately?;Select;Daily;Weekly;Monthly;Rarely;Never
-ProgrammingLanguages;What programming languages can you work with?;Free;MAN;?
-RecentProgrammingLanguages;What programming languages have you used in the last 6 months?;Free;MAN;?
-PythonProgramming;How would you rate your Python programming skills?;Select;Very Inexperienced;Inexperienced;Average;Experienced;Very Experienced
-OverallExperience;How would you rate your overall programming experience?;Select;Very Inexperienced;Inexperienced;Average;Experienced;Very Experienced
-Classmates;How would you rate your programming experience in comparison to your fellow students?;Select;Very Inexperienced;Inexperienced;Average;Experienced;Very Experienced

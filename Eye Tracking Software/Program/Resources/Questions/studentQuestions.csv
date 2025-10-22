@@ -1,5 +1,0 @@
-StudyBefore;Do you have previous experience with eye-tracking studies?;Select;Yes;No
-Job;What is your main occupation at the moment?;Combo;Undergraduate Student (Bachelor Studies);Graduate Student (Master Studies);PhD Student;Software Developer;Other
-CourseOfStudy;What is your current course of study?;Free;MAN;?
-Semester;How far along are you in your current course of studies (in semesters)?;Int;1;20;XXXXX
-Algorithms;Did you take part in the core lecture 'Algorithms and Data Structures' or in 'Competitive Programming'?;Select;Yes;No

@@ -1,0 +1,23 @@
+Number;Task;Answer_Out;Time;TimeOut;SubjectID
+0;WarmUp;"oefl";27139;False;3dc89518-060a-43ed-9353-32f02e456bb6
+1;primeLT;True;82794;False;3dc89518-060a-43ed-9353-32f02e456bb6
+2;commonCharsLT;1;88354;False;3dc89518-060a-43ed-9353-32f02e456bb6
+3;crossSumLN;7423;26720;False;3dc89518-060a-43ed-9353-32f02e456bb6
+4;countIntegerIntervalLN;4;126930;False;3dc89518-060a-43ed-9353-32f02e456bb6
+5;powerLT;8;44587;False;3dc89518-060a-43ed-9353-32f02e456bb6
+6;linearSearchLT;1;42272;False;3dc89518-060a-43ed-9353-32f02e456bb6
+7;factorialLN;24;12336;False;3dc89518-060a-43ed-9353-32f02e456bb6
+8;bubbleSortLT;[1,2,3,4,5];126419;False;3dc89518-060a-43ed-9353-32f02e456bb6
+9;forwardBackwardLT;"pricelesssselecirp";82008;False;3dc89518-060a-43ed-9353-32f02e456bb6
+10;capitalizeFirstLetterLT;"Hello World";150066;False;3dc89518-060a-43ed-9353-32f02e456bb6
+11;palindromeLN;True;83480;False;3dc89518-060a-43ed-9353-32f02e456bb6
+12;arrayAverageLT;4.0;72125;False;3dc89518-060a-43ed-9353-32f02e456bb6
+13;containsSubstringLN;True;125950;False;3dc89518-060a-43ed-9353-32f02e456bb6
+14;countLettersLT;4;142219;False;3dc89518-060a-43ed-9353-32f02e456bb6
+15;squareRootLT;[3.0, 5.0, 4.0, 10.0];87005;False;3dc89518-060a-43ed-9353-32f02e456bb6
+16;leastCommonMultipleLN;30;54487;False;3dc89518-060a-43ed-9353-32f02e456bb6
+17;unrolledSortLT;[12, 11, 9, 8];44095;False;3dc89518-060a-43ed-9353-32f02e456bb6
+18;validParenthesesLN;False;183006;False;3dc89518-060a-43ed-9353-32f02e456bb6
+19;binaryToDecimalLT;13;57432;False;3dc89518-060a-43ed-9353-32f02e456bb6
+20;binarySearchLT;1;188171;False;3dc89518-060a-43ed-9353-32f02e456bb6
+

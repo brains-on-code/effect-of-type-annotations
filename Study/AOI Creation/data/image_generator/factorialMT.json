@@ -1,0 +1,25 @@
+{
+    "font-normal": "JetBrainsMonoNL-Regular.ttf",
+    "font-bold": "JetBrainsMonoNL-Bold.ttf",
+    "font-italic": "JetBrainsMonoNL-Italic.ttf",
+    "font-bold-italic": "JetBrainsMonoNL-BoldItalic.ttf",
+    "font-size": 50,
+    "width-margin": 5,
+    "height-margin": 5,
+    "spacing": 40,
+    "background-color": [
+        255,
+        255,
+        255
+    ],
+    "style": "NoStyle",
+    "styles": [],
+    "source-code": [
+        "[AOI function][AOI L0]def compute(value[AOI type]: int[/AOI type])[AOI return_type] -> int[/AOI return_type]:[/AOI L0]",
+        "    [AOI L1]if value == 1:[/AOI L1]",
+        "        [AOI L2]return 1[/AOI L2]",
+        "    [AOI L3]return compute(value - 1) * value[/AOI L3][/AOI function]"
+    ],
+    "story_order": [1, 2, 3, 4],
+    "execution_order": [1]
+}
