@@ -12,19 +12,12 @@ This folder contains materials related to our conducted pilot study.
 
 ### 2. Study
 
-This folder contains materials related to the study design and data collection.
+This folder contains materials related to the study design and data collection, including the post-questionnaire and rating templates used in the study. 
+This folder also contains the final code snippets used in the study along with additional resources.
 
 ### 3. Data Analysis
 
-This folder contains all necessary files and scripts for data processing and analysis. The 'data' sub-folder contains the raw data files collected during the study. The 'output' sub-folder contains the processed data files and analysis results. Further details on the data analysis pipeline are provided in the 'README.md' file in the 'Data Analysis' folder.
-
-### 4. Post-Questionnaire
-
-This folder includes the post-questionnaire and rating templates used in the study.
-
-### 5. Final Snippets
-
-This folder contains the final code snippets used in the study along with additional resources. The `Images` sub-folder contains visual representations of the snippets with AOI overlays, which can be useful for analysis.
+This folder contains all necessary files and scripts for data processing and analysis. The 'data' sub-folder contains the raw data files collected during the study. The 'output' sub-folder contains the processed data files and analysis results. 
 
 ## Instructions for Replication
 
