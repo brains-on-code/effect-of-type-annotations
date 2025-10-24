@@ -4,7 +4,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Windows;
-using System.Text.RegularExpressions; // added for a try by Nils
+using System.Text.RegularExpressions; // added for a try
 
 namespace Study
 {
