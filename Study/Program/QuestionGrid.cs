@@ -231,7 +231,7 @@ namespace Study
         {
             var textBlock = new TextBlock
             {
-                // Text = text, // old version changed by Nils
+                // Text = text, // old version
                 Text = text.Replace("print", "\r\n\r\n\tprint"),
                 FontSize = QuestionsFontSize,
                 TextWrapping = TextWrapping.Wrap

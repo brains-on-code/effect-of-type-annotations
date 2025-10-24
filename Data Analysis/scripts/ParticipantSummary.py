@@ -15,8 +15,6 @@ from scripts.preprocessing.GazeDataPreprocessing import GazeDataPreprocessing
 from scripts.plots import FixationSaccadeBarChart
 
 
-# todo: consider different screen resolutions: the fixation/saccade detection algorithms relies on velocity in pixe/second -> leads to different results when participants use different screens
-# todo: clean data: separate tasks, since instructions are not tracked (todo: verify this!) -> transition between those is messing up analysis. Alternatively, deal with missing data better.
 def preprocess_raw_data(group):
     print('\n### Preprocessing Pipeline from Raw Data')
     print('-> Reading data...')

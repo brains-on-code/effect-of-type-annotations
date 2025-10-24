@@ -33,8 +33,7 @@ namespace Study
             _name = fileName;
             _id = snippetId;
             _app = app;
-            _questiongrid = new QuestionGrid(app, gridQuest, snippetId); // NILS
-            //_questiongrid = new QuestionGrid(app, gridQuest);
+            _questiongrid = new QuestionGrid(app, gridQuest, snippetId);
 
             gridQuest.RowDefinitions.Add(new RowDefinition { Height = new GridLength(GapToButton) });
             gridQuest.RowDefinitions.Add(new RowDefinition());

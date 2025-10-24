@@ -55,10 +55,8 @@ def participant_fixation_saccades_task(participant_df):
             if snippet == saccade[config.KEYWORD_SNIPPET]:
                 saccades.append(saccade)
 
-        # todo change done by Nils
         task_time = participant_df['gaze_data'].loc[participant_df['gaze_data'][config.KEYWORD_SNIPPET] == snippet, ['ExperimentTime']].iloc[[0, -1]].diff().iat[-1, 0]
-        # task_time = participant_df['gaze_data'].loc[participant_df['gaze_data'][config.KEYWORD_SNIPPET] == snippet, ['ExperimentTime']].iloc[[0, -1]].diff().iloc[-1][0]
-
+        
         # compute for each snippet: fixations/saccades per second and length/distance
         fixations_per_second = len(fixations) / (task_time / 1000)
         saccades_per_second = len(saccades) / (task_time / 1000)
@@ -126,7 +124,6 @@ def participant_fixation_saccades_TA(participant_df):
                 else:
                     saccades.append(saccade)
 
-        # todo Nils also changed this line
         snippet_time = participant_df['gaze_data'].loc[participant_df['gaze_data'][config.KEYWORD_SNIPPET] == snippet, ['ExperimentTime']].iloc[[0, -1]].diff().iat[-1, 0]
 
         if snippet[-1] == 'T':
