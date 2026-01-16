@@ -2,7 +2,7 @@
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-This repository contains the replication package for the paper "Eye-Tracking Insights into the Effects of Type Annotations and Identifier Naming".
+This repository contains the replication package for the paper "Eye-Tracking Insights into the Effects of Type Annotations and Identifier Naming" accepted at ICPC'26.
 
 ## Repository Structure
 
