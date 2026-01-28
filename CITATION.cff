@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use our data or replication package, please cite it as below."
+authors:
+- family-names: "Alznauer"
+  given-names: "Nils"
+  orcid: "https://orcid.org/0009-0008-2724-1708"
+- family-names: "Peitek"
+  given-names: "Norman"
+  orcid: "https://orcid.org/0000-0001-7828-4558"
+- family-names: "Abdelsalam"
+  given-names: "Youssef"
+  orcid: "https://orcid.org/0009-0009-4444-765X"
+- family-names: "Bergum"
+  given-names: "Annabelle"
+  orcid: "https://orcid.org/0000-0002-9953-4904"
+- family-names: "Wyrich"
+  given-names: "Marvin"
+  orcid: "https://orcid.org/0000-0001-8506-3294"
+- family-names: "Apel"
+  given-names: "Sven"
+  orcid: "https://orcid.org/0000-0003-3687-2233"
+title: "Eye-Tracking Insights into the Effects of Type Annotations and Identifier Naming"
+version: 1.0.0
+doi: 
+date-released: 2026-01-28
+url: "https://github.com/brains-on-code/effect-of-type-annotations"
+preferred-citation:
+  type: proceedings
+  authors:
+  - family-names: "Alznauer"
+    given-names: "Nils"
+    orcid: "https://orcid.org/0009-0008-2724-1708"
+  - family-names: "Peitek"
+    given-names: "Norman"
+    orcid: "https://orcid.org/0000-0001-7828-4558"
+  - family-names: "Abdelsalam"
+    given-names: "Youssef"
+    orcid: "https://orcid.org/0009-0009-4444-765X"
+  - family-names: "Bergum"
+    given-names: "Annabelle"
+    orcid: "https://orcid.org/0000-0002-9953-4904"
+  - family-names: "Wyrich"
+    given-names: "Marvin"
+    orcid: "https://orcid.org/0000-0001-8506-3294"
+  - family-names: "Apel"
+    given-names: "Sven"
+    orcid: "https://orcid.org/0000-0003-3687-2233"
+  doi: ""
+  conference: "International Conference on Program Comprehension (ICPC)"
+  month: 1
+  start: 0 # First page number 
+  end: 0 # Last page number
+  title: "Eye-Tracking Insights into the Effects of Type Annotations and Identifier Naming"
+  year: 2026
