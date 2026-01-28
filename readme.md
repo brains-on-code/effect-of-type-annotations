@@ -56,3 +56,7 @@ This repository is licensed under a
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+## Contact
+
+For any questions or issues related to this replication package, please contact Norman Peitek at [peitek@cs.uni-saarland.de].
